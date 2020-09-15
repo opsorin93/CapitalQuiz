@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Message"
+        android:gravity="center"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/background_dark"
+        android:text="Welcome to Capital Quiz"
+        android:textStyle="italic"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/information1"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Message"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Capital Quiz is a fun and competitive way to test your knowledge of world capitals."
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <TextView
+        android:id="@+id/information2"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information1"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="You will have to select a continent from the Menu page. Question will be shown in a random order, with the intention to make you struggle."
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+
+        />
+
+    <TextView
+        android:id="@+id/information3"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information2"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="You will be awarded 10 points for each correct question and lose 10 points for each wrong one."
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+
+        />
+    <TextView
+        android:id="@+id/information4"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information3"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="WATCH OUT ! There's a timer ! If it runs out, you will also loose 10 points. You are allowed to skip one questions at the cost of 5 points!"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <TextView
+        android:id="@+id/information5"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information4"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Prove that you know the capitals by getting the highest score! Challenge your friends and family!"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <TextView
+        android:id="@+id/information6"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information5"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="©Capital Quiz"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        />
+
+
+</RelativeLayout>

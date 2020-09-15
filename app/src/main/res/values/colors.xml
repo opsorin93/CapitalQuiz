@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2252A2</color>
+    <color name="colorPrimaryDark">#0E18B1</color>
+    <color name="colorAccent">#D8731B</color>
+    <color name="dialogButtonText">#008577</color>
+    <color name="gold">#D4AF37</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="bronze">#996515</color>
+</resources>

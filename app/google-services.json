@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "211603230309",
+    "firebase_url": "https://capital-quiz-659b7.firebaseio.com",
+    "project_id": "capital-quiz-659b7",
+    "storage_bucket": "capital-quiz-659b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211603230309:android:4022927e6d46fe6e47c08c",
+        "android_client_info": {
+          "package_name": "android.bignerdranch.com.capitalquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211603230309-bn7l4lfb0ih564nolt8ndm8fnkk3nak2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.bignerdranch.com.capitalquiz",
+            "certificate_hash": "967eee5fdfc4c78b8d613040b8bbb1707b534b29"
+          }
+        },
+        {
+          "client_id": "211603230309-okq8qsg26cg2o7m48udg6dmqpcoo8s1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGXQDswRX1vh6CUce1DSRtzyarmrVOM_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211603230309-okq8qsg26cg2o7m48udg6dmqpcoo8s1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

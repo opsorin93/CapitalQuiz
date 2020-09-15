@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Message"
+        android:gravity="center"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/background_dark"
+        android:text="Enter Your Nickname"
+        android:textStyle="italic"
+        android:textSize="25sp"/>
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Message"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        />
+</RelativeLayout>

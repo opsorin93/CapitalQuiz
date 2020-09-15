@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context=".QuizFragment">
+
+        <Button
+            android:id="@+id/btn_Back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back_arrow"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_Info"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/info_icon"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="226dp"
+            android:layout_height="144dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/questionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/image"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Question"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/questionTxt"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_choice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="option1"
+            android:layout_below="@+id/timer"
+            />
+
+        <Button
+            android:id="@+id/btn_choice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="option1"
+            android:layout_below="@+id/btn_choice1"
+            />
+
+        <Button
+            android:id="@+id/btn_choice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="option1"
+            android:layout_below="@+id/btn_choice2"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textScore"
+                    android:layout_width="6dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="Score 0"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/skip"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/skip"
+                    />
+
+                <TextView
+                    android:id="@+id/textTotalQuestions"
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp">
+
+                </TextView>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

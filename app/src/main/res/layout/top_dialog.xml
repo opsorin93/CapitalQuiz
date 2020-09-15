@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Message"
+        android:gravity="center"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/background_dark"
+        android:text="Which top you want to see?"
+        android:textStyle="italic"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_TopAfrica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Africa"
+        android:layout_below="@+id/Message"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/trophy"
+        android:paddingLeft="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_TopAmerica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="America"
+        android:layout_below="@+id/btn_TopAfrica"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/trophy"
+        android:paddingLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_TopAsia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Asia"
+        android:layout_below="@+id/btn_TopAmerica"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/trophy"
+        android:paddingLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_TopAustralia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_TopAsia"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Australia and Oceania"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/trophy"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btn_TopEurope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_TopAustralia"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableLeft="@drawable/trophy"
+        android:paddingLeft="10dp"
+        android:text="Europe"
+        android:gravity="center"/>
+
+
+
+</RelativeLayout>

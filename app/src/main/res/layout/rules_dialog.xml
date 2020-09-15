@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/Message"
+        android:gravity="center"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/background_dark"
+        android:text="How to play"
+        android:textStyle="italic"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/information1"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Message"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="The screen below shows you the flag of a country and 3 major cities from that country. Choose wisely !"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <ImageView
+        android:id="@+id/info_arrow"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/skip_red"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/information2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information1"
+        android:layout_alignLeft="@id/info_arrow"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout="@+id/info_arrow"
+        android:text="The forward arrow button will allow you to skip a question at the cost of 5 points."
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/information3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information2"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout="@+id/info_arrow"
+        android:text="In the bottom left side of the screen you will find your score."
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/information4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information3"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout="@+id/info_arrow"
+        android:text="In the bottom right side of the screen you can check your progress through the question pool. "
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+</RelativeLayout>
+

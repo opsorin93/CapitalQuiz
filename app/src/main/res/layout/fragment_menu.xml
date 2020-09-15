@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MenuFragment">
+
+    <Button
+        android:id="@+id/btn_Back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back_arrow"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_Top"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/top"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/text_continent"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Choose your continent"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_Africa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Africa"
+        android:layout_below="@+id/text_continent"
+        />
+    <Button
+        android:id="@+id/btn_America"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_Africa"
+        android:text="America"/>
+
+    <Button
+        android:id="@+id/btn_Asia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_America"
+        android:text="Asia"/>
+
+    <Button
+        android:id="@+id/btn_Australia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_Asia"
+        android:text="Australia and Oceania"/>
+
+    <Button
+        android:id="@+id/btn_Europe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_Australia"
+        android:text="Europe"/>
+
+
+
+
+
+
+</RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
